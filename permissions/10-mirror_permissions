@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo hmod u=rw,g=rw,o=r
+sudo chmod u=rw,g=rw,o=r
