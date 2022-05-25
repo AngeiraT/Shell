@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -type d -empty | cut -c 3- 
+find ./ -type d | cut -d"/" -f2 | sort -u 
