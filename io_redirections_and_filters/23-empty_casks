@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f | cut -d"/" -f2 | sort -u 
+find ./ -type f | cut -f"/" -f2 | sort -u 
