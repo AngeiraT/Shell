@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script displays list files
+list=$(ls)
+for file in $list;
+do
+    echo "$file" | cut -f2 -d '-'
+done
