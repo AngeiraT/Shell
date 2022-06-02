@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script displays loops in the 4th loop bad luck and in the 8th loop good luck
 i=0
 while ((i < 10))
         do
