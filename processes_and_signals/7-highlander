@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script displays indefinitely and sleep 2 
+msg()
+{ echo "I am invincible!!!" }
+trap "msg" SIGTERM
+
+while true
+    do
+    echo "To infinity and beyond"
+    sleep 2
+done
